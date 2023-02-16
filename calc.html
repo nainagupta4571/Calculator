@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Calculator </title>
+     <link type="text/css" href="style.css" rel="stylesheet">
+     <script src="javascript.js"></script>
+</head>
+
+<body> <br> <br><u>
+    <center><h1>Chandni's Calculator</center></h1> </u>
+     <div id="mainbody">
+          <div>
+               <input type="text" id="screen1">
+               <input type="text" id="screen2">
+          </div>
+          <div class="but">
+               <div class="row">
+
+                    <button onclick="clk('(')"> (</button>
+                    <button onclick="clk(')')"> )</button>
+                    <button onclick="eql('=')"> ans</button>
+                    <button onclick="back()"> del</button>
+                    <button onclick="clrdisp()">clear </button>
+               </div>
+               <div class="row">
+                    <button onclick="clk(7)" id="button1"> 7</button>
+                    <button onclick="clk(8)" id="button1"> 8</button>
+                    <button onclick="clk(9)" id="button1"> 9</button>
+                    <button onclick="clk('%')">%</button>
+                    <button onclick="sqrt()">&#8730</button>
+                    </button>
+               </div>
+               <div class="row">
+                    <button onclick="clk(4)" id="button1"> 4</button>
+                    <button onclick="clk(5)"  id="button1"> 5</button>
+                    <button onclick="clk(6)" id="button1"> 6</button>
+                    <button onclick="clk('*')"> &#215</button>
+                    <button onclick="clk('/')">&divide</button>
+               </div>
+               <div class="row">
+                    <button onclick="clk(1)" id="button1"> 1</button>
+                    <button onclick="clk(2)" id="button1"> 2</button>
+                    <button onclick="clk(3)" id="button1"> 3</button>
+                    <button onclick="clk('+')"> +</button>
+                    <button onclick="clk('-')"> -</button>
+               </div>
+               <div class="row">
+                    <button onclick="clk('.')"> .</button>
+                    <button onclick="clk(0)" id="button1"> 0</button>
+                    <button onclick="opposite()">&#177 </button>
+                    <button onclick="eql('=')" id="enterbtn"> ENTER</button>
+               </div>
+          </div>
+
+     </div>
+     </div>
+</body>
+
+</html>
